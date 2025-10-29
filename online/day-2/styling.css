@@ -1,27 +1,26 @@
-header{
-      background:var(--accent);
-      padding:12px 18px;
-      text-align:center;
-      font-weight:700;
-      letter-spacing:2px;
-      font-size:28px;
-      color:#111;
-      margin:-28px -28px 18px -28px;
+.content-wrap{
+    object-fit:cover;
+    border-radius:6px;
+    border:3px solid rgba(102, 89, 89, 0.06);
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
 }
 .content{
-      display:grid;
-      grid-template-columns:200px 1fr;
-      gap:40px;
-      align-items:start;
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    align-items:start;
 }
 h1{
     font-family: Arial, sans-serif;
-    font-size:20xp;
+    font-size:30px;
     text-align: center;
+    background-color: yellow;
 }
 h4{
     font-family: Arial, sans-serif;
-    font-size: 10xp;
+    font-size: 13px;
     color: rgb(10, 10, 10);
 }
 img{
@@ -31,5 +30,5 @@ img{
     border-radius:6px;
     border:3px solid rgba(0,0,0,0.06);
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
