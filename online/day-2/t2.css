@@ -1,0 +1,114 @@
+.header-wrap{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.789);
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 6px;
+}
+.content-wrap{
+    object-fit: cover;
+    border-radius:6px;
+    border:3px solid rgba(0, 0, 0, 0.0789);
+    width: 50%;
+    margin-left: 25%;
+    align-items: flex-start;
+}
+.content{
+    justify-content: center;
+    object-fit: cover;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+    margin-top: -20%;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 8px;
+    margin-left: 15%;
+    margin-top: 5%;
+    font-family: Arial, sans-serif;
+}
+th,td{
+    padding: 8px;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.789);
+    color: antiquewhite;
+}
+caption{
+    text-align: left;
+    padding-bottom: 3%;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;                              
+  margin-left: 5%;
+  margin-top: 5%;
+  max-width: 900px;               
+}
+.kiri, .kanan{
+  flex: 10;                              
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+.kiri, caption{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+.kanan, caption{
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+.kiri h4, .kanan h4{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+ul {
+  margin: 5px 0 10px 20px;
+  padding: 0;
+}
+li {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+h1{
+    color: antiquewhite;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1%;
+}
+h3, p{
+    text-align: left;
+    justify-content: left;
+    object-fit: cover;
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin-left: 35%;
+}
+h5{
+    color: antiquewhite;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin-top: 0%;
+    font-weight: lighter;
+}
+img{
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius:55px;
+    border:3px solid rgba(0,0,0,0.789);
+    margin-left: 15%;
+    margin-top: 10%;
+}
